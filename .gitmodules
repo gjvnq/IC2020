@@ -1,0 +1,6 @@
+[submodule "sim-diasca/mock-simulators/smart_city_model"]
+	path = sim-diasca/mock-simulators/smart_city_model
+	url = git@github.com:ezambomsantana/smart_city_model.git
+[submodule "simulator/mock-simulators/smart_city_model"]
+	path = simulator/mock-simulators/smart_city_model
+	url = git@github.com:ezambomsantana/smart_city_model.git
