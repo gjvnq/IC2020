@@ -1552,7 +1552,7 @@ url_info_to_string( #url_info{ protocol=Protocol, host_identifier=Host,
 %
 -spec string_to_url_info( string() ) -> url_info().
 string_to_url_info( String ) ->
-	case http_uri:parse( String ) of
+	case uri_string:parse( String ) of
 
 		{ ok, { Scheme, _UserInfo, Host, Port, Path, _Query } } ->
 			#url_info{ protocol=Scheme,

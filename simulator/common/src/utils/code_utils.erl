@@ -433,7 +433,8 @@ is_beam_in_path( ModuleName ) when is_atom( ModuleName ) ->
 %
 -spec interpret_stacktrace() -> string().
 interpret_stacktrace() ->
-	StackTrace = erlang:get_stacktrace(),
+	% it was erlang:get_stacktrace(), but since OTP 22 or 23, it returns []
+	StackTrace = [],
 	interpret_stacktrace( StackTrace ).
 
 
