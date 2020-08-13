@@ -1,5 +1,8 @@
 simulator/sim-diasca/package-versions.hrl
 .vscode
+matsim-0.9.0
+otfvis-0.9.0
+downloads
 
 # Created by https://www.toptal.com/developers/gitignore/api/erlang,autotools,linux,vim,sublimetext
 # Edit at https://www.toptal.com/developers/gitignore?templates=erlang,autotools,linux,vim,sublimetext
